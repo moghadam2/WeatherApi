@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\test\\WeatherApiTest\\WeatherApiTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj",
+        "projectName": "Application.Contract",
+        "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\Noruzi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noruzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Noruzi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noruzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Noruzi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noruzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj"
+              },
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\test\\WeatherApiTest\\WeatherApiTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\test\\WeatherApiTest\\WeatherApiTest.csproj",
+        "projectName": "WeatherApiTest",
+        "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\test\\WeatherApiTest\\WeatherApiTest.csproj",
+        "packagesPath": "C:\\Users\\Noruzi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\test\\WeatherApiTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Noruzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application.Contract\\Application.Contract.csproj"
+              },
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Application\\Application.csproj"
+              },
+              "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\Web.csproj": {
+                "projectPath": "C:\\Users\\Noruzi\\Desktop\\WeatherApi\\src\\Web\\Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.13.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.9.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
