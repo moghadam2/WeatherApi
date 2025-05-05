@@ -58,14 +58,14 @@ It was a good test, although it seems to require a high evaluation effort from y
     "Docker",
     "SQL"
   ],
-  "languages": {
+  "language": {
     "English": "Intermediate"
   },
   "education": {
     "degree": "Bachelor's",
     "field": "Software Engineering"
   },
-  "workExperience": [
+  "workExperiences": [
     {
       "company": "Arzval",
       "position": "Software Developer",
@@ -78,7 +78,8 @@ It was a good test, although it seems to require a high evaluation effort from y
     }
   ],
   "contact": {
-    "email": "12345Noruzi@Gmail.com"
+    "email": "12345Noruzi@Gmail.com",
+    "phoneNumber":"+989364987074"
   },
   "summary": "A passionate software developer with experience in C#, .NET Core, and Docker, interested in building scalable software solutions."
 }
